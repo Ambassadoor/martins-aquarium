@@ -55,6 +55,86 @@ export const database = {
             location: "Indian & Pacific Ocean",
             diet: "Omnivore",
             image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2023/06/iStock-154948410.jpg"
+        },
+        {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 15,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://www.bristolaquarium.co.uk/wp-content/uploads/2023/06/iStock-1399799270.jpg"
+        },
+        {
+            name: "Marina",
+            species: "Angelfish",
+            length: 6,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://freshwateraquatica.org/cdn/shop/products/Screenshot_77.png?v=1693570807"
+        },
+        {
+            name: "Finn",
+            species: "Yellow Tang",
+            length: 9,
+            location: "Hawaiian Islands",
+            diet: "Herbivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Zebrasoma_flavescens_Luc_Viatour.jpg/500px-Zebrasoma_flavescens_Luc_Viatour.jpg"
+        },
+        {
+            name: "Splash",
+            species: "Dolphin",
+            length: 20,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/500px-Tursiops_truncatus_01.jpg"
+        },
+        {
+            name: "Coral",
+            species: "Parrotfish",
+            length: 12,
+            location: "Red Sea",
+            diet: "Herbivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Scarus_frenatus_by_Ewa_Barska.jpg/500px-Scarus_frenatus_by_Ewa_Barska.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Pufferfish",
+            length: 10,
+            location: "Maldives",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Canthigaster_valentini_1.jpg/500px-Canthigaster_valentini_1.jpg"
+        },
+        {
+            name: "Flash",
+            species: "Barracuda",
+            length: 18,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Barracuda_laban.jpg/500px-Barracuda_laban.jpg"
+        },
+        {
+            name: "Pearl",
+            species: "Manta Ray",
+            length: 25,
+            location: "Coral Triangle",
+            diet: "Filter Feeder",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dharavandhoo_Thila_-_Manata_Black_Pearl.JPG/500px-Dharavandhoo_Thila_-_Manata_Black_Pearl.JPG"
+        },
+        {
+            name: "Zigzag",
+            species: "Triggerfish",
+            length: 14,
+            location: "Galápagos Islands",
+            diet: "Omnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Picasso.triggerfish.arp.jpg/500px-Picasso.triggerfish.arp.jpg"
+        },
+        {
+            name: "Jewel",
+            species: "Mandarin Fish",
+            length: 21,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Synchiropus_splendidus_2_Luc_Viatour.jpg/500px-Synchiropus_splendidus_2_Luc_Viatour.jpg"
         }
     ],
     tips: [

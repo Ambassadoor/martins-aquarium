@@ -1,16 +1,22 @@
 import { database } from './aquariumData.js';
 
-export const fishList = () => {
+export const fishList = (fishes,category) => {
+    if (!fishes) {
+        fishes = database.fish
+    }
+    if (!category) {
+        category="Fish"
+    }
     // Generate an HTML representation of each fish
     let htmlString = `
     <article class="fishList">
     <div id = "fishHeader">
-        <h2>Fish</h2>
+        <h2>${category}</h2>
     </div>
     <div id="fishCardsBox">`
     
 
-    database.fish.map(fish => {
+    fishes.map(fish => {
         htmlString += `<section class="fishCard">
             <div class="fishText">
                 <p class="fish__name">Name: ${fish.name}</p>

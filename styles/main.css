@@ -1,0 +1,58 @@
+body {
+    background-color: aqua;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* Header Styling */
+header h1 {
+    text-align: center;
+}
+
+#fishHeader h2 {
+    text-align: center;
+}
+
+#tipsHeading {
+    text-align: center;
+}
+
+#locationsHeader h2 {
+    text-align: center;
+}
+
+/* Fish Card Styling */
+.fishCard {
+   border-radius: 10px;
+   background-color: rgb(10, 130, 60);
+}
+
+.fishText {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.fishImageBox {
+    background-color: #0a124d;
+    border-radius: 10px;
+}
+
+.fishImage {
+    max-width: 75%;
+}
+
+/* Tips Styling */
+.tips li {
+    margin-bottom: 15px;
+}
+
+/* Locations Styling */
+.location {
+   border-radius: 10px;
+   background-color: rgb(10, 130, 60);
+}
+
+.locationsText {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
